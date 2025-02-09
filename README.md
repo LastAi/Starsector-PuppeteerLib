@@ -31,6 +31,21 @@ Tag Prefix "anim.dope:" Create a dopesheet (dopesheets were used by to 2d animat
 ![src-images.png](readme_files/src-images.png)
 ![WeaponCSV.png](readme_files/WeaponCSV.png)
 
+### Current Supported Actions
+#### Actions have a tag prefixs and attribute prefixs, tags start with "anim.****:"
+"anim.type:","at" = Sets the way it animation is executed [Forwad, Once, Pingpong]<br/>
+"anim.rate:","r" = Sets the Animation Timing Rate the fasted the game ticks go is 0.0166~, due to size you probably cant see a difference between 0.05 and 0.016<br/>
+"anim.start:","s" = Set what frame of the dope to start on, this is great for off setting animations. Think blink lights that seem to move in a direction because they are offset.<br/>
+"anim.color:","c" = Sets Color. needs more testing.<br/>
+"anim.glow:","g" = Sets Glow Color. needs more testing.<br/>
+"anim.rotate:","rot" = Set a rotation. As a Tag this sets a constant rate per dope frame. As an attribute this sets an amount to rotate by. <br/>
+null,"mov" = As an attribute this sets an amount to move by. There is not Tag for this. You should never have constant movement. Move is probably the most likely to cause issues.<br/>
+### Future Planned Actions
+Rotate to exact position.
+Move to exact position.
+Spawn effects like particles when called in the dope.
+Arbitrary Function execution when called in the dope.
+External Triggers, think if an animation set to ONCE, could be triggered to start again, based on external actions.
 
 ## Thanks to Wisp
 Author of https://github.com/wispborne/Starsector-IntelliJ-Template
