@@ -2,9 +2,10 @@
   "id": "lastai_animutil",
   "name": "Puppeteer Animation Library",
   "author": "LastAi",
-  "version":"0.1",
+  "utility": true,
+  "version": { "major": '0', "minor": '1', "patch": '0' },
   "description": "Control Animations with tags",
-  "gameVersion": "0.97a-RC6",
+  "gameVersion": "0.97a-RC11",
   "jars": ["jars/AnimatePuppeteerUtil.jar"],
   "modPlugin":"data.scripts.PuppeteerPlugin",
 }
