@@ -1,0 +1,189 @@
+{
+    "hullName": "Air",
+    "hullId": "emptyship",
+    "hullSize": "FRIGATE",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/lastai/ship/empty.png",
+    "height": 5,
+    "width": 5,
+    "center": [
+        2.5, 2.5
+    ],
+    "collisionRadius": 10,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 18,
+    "viewOffset": 0,
+    "builtInMods": [],
+    "builtInWeapons": {
+        "WS anim[@s0@atPINGPONG]mate 001": "progblinker",
+        "WS anim[@s1@atPINGPONG]mate 002": "progblinker",
+        "WS anim[@s2@atPINGPONG]mate 003": "progblinker",
+        "WS anim[@s3@atPINGPONG]mate 004": "progblinker",
+        "WS anim[@s4@atPINGPONG]mate 005": "progblinker",
+        "WS anim[@s5@atPINGPONG]mate 006": "progblinker",
+        "WS anim[@s0@atPINGPONG]mate 000": "progblinker",
+        "WS anim[@s0@atPINGPONG]mate 007": "progblinker",
+        "WS anim[@s1@atPINGPONG]mate 008": "progblinker",
+        "WS anim[@s2@atPINGPONG]mate 009": "progblinker",
+        "WS anim[@s3@atPINGPONG]mate 010": "progblinker",
+        "WS anim[@s4@atPINGPONG]mate 011": "progblinker",
+        "WS anim[@s5@atPINGPONG]mate 012": "progblinker",
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS anim[@s0@atPINGPONG]mate 000",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS anim[@s0@atPINGPONG]mate 001",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      300,      0
+            ]
+        },
+        {
+            "id": "WS anim[@s1@atPINGPONG]mate 002",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   260,    150
+            ]
+        },
+        {
+            "id": "WS anim[@s2@atPINGPONG]mate 003",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     150,     260
+            ]
+        },
+        {
+            "id": "WS anim[@s3@atPINGPONG]mate 004",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     0,        300
+            ]
+        },
+        {
+            "id": "WS anim[@s4@atPINGPONG]mate 005",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      -150,     260
+            ]
+        },
+        {
+            "id": "WS anim[@s5@atPINGPONG]mate 006",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -260,       150
+            ]
+        },
+        {
+            "id": "WS anim[@s0@atPINGPONG]mate 007",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      -300,     00
+            ]
+        },
+        {
+            "id": "WS anim[@s1@atPINGPONG]mate 008",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -260,        -150
+            ]
+        },
+        {
+            "id": "WS anim[@s2@atPINGPONG]mate 009",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      -150,     -260
+            ]
+        },
+        {
+            "id": "WS anim[@s3@atPINGPONG]mate 010",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    0,     -300
+            ]
+        },
+        {
+            "id": "WS anim[@s4@atPINGPONG]mate 011",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      150,    -260
+            ]
+        },
+        {
+            "id": "WS anim[@s5@atPINGPONG]mate 012",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     260,    -150
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+            -2.5,      2.5,
+            -2.5,     -2.5,
+             2.5,     -2.5,
+             2.5,      2.5
+    ]
+}

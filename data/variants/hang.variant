@@ -1,0 +1,21 @@
+{
+    "displayName": "Hanger",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "anim_hull",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "hang",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        }
+    ]
+}

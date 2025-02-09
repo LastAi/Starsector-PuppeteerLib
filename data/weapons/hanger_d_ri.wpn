@@ -1,0 +1,18 @@
+{
+	"id":"hanger_d_ri",
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"everyFrameEffect":"data.scripts.weapons.effects.DecoAnimated",
+	"showDamageWhenDecorative":true,
+	"renderBelowAllWeapons":false,
+
+	"turretSprite":"graphics/lastai/ship/anim.test/munitions_d1_w_doors-door-RI.png",
+	"hardpointSprite":"graphics/lastai/ship/anim.test/munitions_d1_w_doors-door-RI.png",
+	"numFrames":1,
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"textureType":"ROUGH"
+}
