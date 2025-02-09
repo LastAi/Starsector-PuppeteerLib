@@ -45,7 +45,9 @@ Rotate to exact position.
 Move to exact position.
 Spawn effects like particles when called in the dope.
 Arbitrary Function execution when called in the dope.
-External Triggers, think if an animation set to ONCE, could be triggered to start again, based on external actions.
+External Ref for Dope sheets.
+External Triggers, think if an animation set to ONCE, could be triggered to start again, based on external actions or change dope ref.
+
 
 ## Thanks to Wisp
 Author of https://github.com/wispborne/Starsector-IntelliJ-Template
